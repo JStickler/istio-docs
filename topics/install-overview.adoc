@@ -1,5 +1,5 @@
 [[servicemesh_install_overview]]
-= {Productname} Installation Overview
+== {Productname} Installation Overview
 
 The {Productname} installer creates a OpenShift Ansible {Productname} job that runs an Ansible playbook that performs the following installation and configuration tasks automatically:
  

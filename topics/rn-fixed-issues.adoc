@@ -1,5 +1,12 @@
+---
+title: "Fixed Issues"
+date: 2018-08-08T14:06:16-04:00
+draft: false
+weight: 6
+---
+include::document-attributes.adoc[]
 [[fixed_issues]]
-= Fixed Issues
+== Fixed Issues
 ////
 Provide the following info for each issue if possible:
 Consequence - What user action or situation would make this problem appear  (If you have the foo option enabled and did x)? What did the customer experience as a result of the issue? What was the symptom? 

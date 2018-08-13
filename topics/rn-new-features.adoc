@@ -1,5 +1,12 @@
+---
+title: "New Features"
+date: 2018-08-08T14:06:16-04:00
+draft: false
+weight: 3
+---
+include::document-attributes.adoc[]
 [[new_features]]
-= New Features
+== New Features
 ////
 Feature – Describe the new functionality available to the customer.  For enhancements, try to describe as specifically as possible where the customer will see changes.  
 Reason – If known, include why has the enhancement been implemented (use case, performance, technology, etc.).   For example, showcases integration of X with Y, demonstrates Z API feature, includes latest framework bug fixes.  There may not have been a 'problem' previously, but system behaviour may have changed.  

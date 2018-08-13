@@ -1,14 +1,14 @@
 [[install_post]]
-= Verifying Installation
+== Verifying Installation
 The above instructions will create a job within the istio-system project to install Istio using Ansible playbooks, the progress of the installation can be followed by either watching the pods or the log output from the `openshift-ansible-istio-installer-job` pod.
 
 To watch the progress of the pods execute the following command:
 
 ```
-oc get pods -n istio-system -w
+istiooc get pods -n istio-system -w
 ```
 
-Once the `openshift-ansible-istio-installer-job` has completed run `oc get pods -n istio-system` and verify you have state similar to the following"
+Once the `openshift-ansible-istio-installer-job` has completed run `istiooc get pods -n istio-system` and verify you have state similar to the following"
 
 ```
 NAME                                        READY     STATUS      RESTARTS   AGE

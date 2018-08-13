@@ -1,9 +1,11 @@
+include::document-attributes.adoc[]
 [[install_istio]]
-= Installing {Productname}
+== Installing {Productname}
 
 ////
 Instructions for how to install go here.
-
+https://github.com/openshift-istio/openshift-ansible/blob/istio-3.10-1.0.0-snapshot.0/istio/Installation.md
+Does this NOT run using istiooc?
 ////
 
 ## Installing {Productname}

@@ -1,6 +1,6 @@
 [[oc_options]]
 
-= ISTIOOC Options
+== ISTIOOC Options
 The `istiooc` version of the `oc` command line tool has some addtional options.
 
 .Service Mesh Options

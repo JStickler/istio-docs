@@ -1,5 +1,12 @@
+---
+title: "Deprecated Features"
+date: 2018-08-08T14:06:16-04:00
+draft: false
+weight: 4
+---
+include::document-attributes.adoc[]
 [[deprecated_features]]
-= Deprecated Features
+== Deprecated Features
 ////
 Provide the following info for each issue if possible:
 Description - Description of the any features (including technology previews) that have been removed from the product.  Write the description from a customer perspective, what UI elements, commands, or options are no longer available.

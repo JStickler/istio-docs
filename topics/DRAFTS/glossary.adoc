@@ -1,0 +1,39 @@
+title: "Glossary"
+date: 2018-07-26
+draft: true
+
+[id='glossary']
+= Glossary
+
+concepts in Istio that we need to define for customers
+* applications
+* services
+* workloads
+* versions
+
+////
+I'm even not sure if we've come to an agreement about using the word "Workload".
+Some Deployments may not be Istio Workloads (because they may not have a sidecar), and reciprocally Istio Workloads may not all come from deployments.
+
+https://docs.google.com/presentation/d/1e3YuJBMZlbENTFuRVNRQCFvv8eHWyVWtxGQR8Fj4RrM/edit#slide=id.g3db631a5f2_1_5
+
+services
+
+applications - defined through the use of Kubernetes labels on workloads.  Without the label, an app does not exist.  An app is technicall NOT the same thing as a service.
+Concept applied to how you want to group things.  one app label per deployment.
+
+deployments
+
+workloads
+
+pod is a workload instance
+a pod can also be a workload as well as a workload instance, but lets ignore that for now 
+Message from Matt Wringe: a workload is a group of workload instance (eg a pod). It can represent a deployment, replicaset, deamonset, individual pod, etc
+a workload is a group of workload instance (eg a pod). It can represent a deployment, replicaset, deamonset, individual pod, etc
+
+
+
+
+
+
+////

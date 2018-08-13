@@ -1,5 +1,12 @@
+---
+title: "Technology Preview"
+date: 2018-08-08T14:06:16-04:00
+draft: false
+weight: 5
+---
+include::document-attributes.adoc[]
 [[technology_preview]]
-= Technology Preview
+== Technology Preview
 ////
 Provide the following info for each issue if possible:
 Description -  Describe the new functionality available to the customer.  For enhancements, try to describe as specifically as possible where the customer will see changes.  Avoid the word “supports” as in [product] now supports [feature] to avoid customer confusion with full support.  Say, for example, “available as a Technology Preview.”

@@ -1,4 +1,4 @@
-= Installing OpenShift Service Mesh
+== Installing OpenShift Service Mesh
 
 In order to make it as easy as possible to preview OpenShift Service Mesh, based the Istio project, we've created a special version of the `oc` command line tool for OpenShift. When you run `oc cluster up`, that single command performs the following actions:
 

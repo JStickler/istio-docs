@@ -1,0 +1,4 @@
+= {ProductName}
+
+Home page for the {ProductName} {ProductVersion} documentation.
+

@@ -1,5 +1,5 @@
 [[getting_support]]
-= Getting Support
+== Getting Support
 
 image::logo_RH.png[Red Hat logo]
 

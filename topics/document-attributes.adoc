@@ -4,27 +4,27 @@
 :toc:
 :toclevels: 4
 :numbered:
-//NOTE: Actual directory is content/img, but the symlink uses the names the ccutil expects
-:imagesdir: topics/images
+//NOTE: Actual directory is topics/img, but the symlink uses the names the ccutil expects
+:imagesdir: images
 :experimental:
 //
 // Product content attributes, that is, substitution variables in the files.
 //
 :ProductName: Red Hat OpenShift Service Mesh
 :ProductShortName: Service Mesh
-:ProductRelease: 
-:ProductVersion: 1.0
+:ProductRelease: 1.0.0TechPreview
+:ProductVersion: 
 :product-build:  
 :DownloadURL: registry.access.redhat.com
 :product-title: Installing Red Hat OpenShift Service Mesh
-:product-title_short: Product 1.0.0
+:product-title_short: 
 //
 // Documentation publishing attributes used in the master-docinfo.xml file
 // Note that the DocInfoProductName generates the URL for the product page.
 // Changing the value changes the generated URL.
 //
 :DocInfoProductName: OpenShift Service Mesh
-:DocInfoProductNumber: 1.0
+:DocInfoProductNumber: 1.0.0TechPreview
 //
 // Book Names:
 //     Defining the book names in document attributes instead of hard-coding them in

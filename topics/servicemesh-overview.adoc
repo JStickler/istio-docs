@@ -1,7 +1,6 @@
+include::document-attributes.adoc[]
 [[product_overview]]
-= {Productname} Overview
-
-image::logo_istio.png["Istio logo"]
+== {Productname} Overview
 
 {Productname} is an open platform to connect, manage, and secure microservices. 
 

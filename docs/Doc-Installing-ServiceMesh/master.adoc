@@ -1,46 +1,49 @@
-include::topics/document-attributes.adoc[]
+:Install_BookName: Installing Red Hat OpenShift Service Mesh 
+:ProductName: Red Hat OpenShift Service Mesh
+:DocInfoProductNumber: 1.0.0TechPreview
+:ProductRelease: 1.0.0TechPreview
+:imagesdir: images
 
 = {Install_BookName}
 
 [[install_chapter_1]]
 == Product Overview
 
-IMPORTANT: This release of {ProductName} is a Technology Preview release only. 
-Technology Preview releases are not supported with Red Hat production service-level agreements
-(SLAs) and might not be functionally complete, and Red Hat does not recommend using them for
-production. These features provide early access to upcoming product features, enabling 
-customers to test functionality and provide feedback during the development process. 
-For more information see link:https://access.redhat.com/support/offerings/techpreview/
-[Red Hat Technology Preview Features Support Scope]. 
+IMPORTANT: This release of {ProductName} is a Technology Preview release only.  Technology Preview releases are not supported with Red Hat production service-level agreements (SLAs) and might not be functionally complete, and Red Hat does not recommend using them for production. Using {ProductName} on a cluster renders the whole OpenShift cluster as a technology preview, that is, in an unsupported state. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information see link:https://access.redhat.com/support/offerings/techpreview/[Red Hat Technology Preview Features Support Scope].
+
 
 // Include product overview
-include::topics/servicemesh-overview.adoc[leveloffset=+2]
+include::topics/servicemesh-overview.adoc[leveloffset=+1]
 
 // Include product architecture
-include::topics/servicemesh-architecture.adoc[leveloffset=+2]
+include::topics/servicemesh-architecture.adoc[leveloffset=+1]
 
 [[install_chapter_2]]
 == Prerequisites
 
 // Include installation prerequisites
-include::topics/install-prerequisites.adoc[leveloffset=+2]
+include::topics/install-prerequisites.adoc[leveloffset=+1]
 
 [[install_chapter_3]]
 == Installing {ProductShortName}
 
 // Include installation
-include::topics/install.adoc[leveloffset=+2]
+include::topics/install.adoc[leveloffset=+1]
 
 ////
 [[install_chapter_4]]
 == Post Installation Tasks
 
 // Include next steps
-include::topics/install-post.adoc[leveloffset=+2]
+include::topics/install-post.adoc[leveloffset=+1]
 
 [[install_chapter_5]]
 == Removing {Productname}
-include::topics/install-remove.adoc[leveloffset=+2]
+include::topics/install-upgrade.adoc[leveloffset=+1]
+
+[[install_chapter_6]]
+== Removing {Productname}
+include::topics/install-remove.adoc[leveloffset=+1]
 ////
 
 ////

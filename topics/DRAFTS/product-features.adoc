@@ -1,0 +1,49 @@
+[[product_features]]
+= {Productname} Features
+
+{Productname} Features
+
+
+
+
+
+////
+The Three Pillars
+1.  Observability: metrics, logging, traces
+2.  Control: traffic management
+3.  Security: secure communication between services, edge to/from the outside world (egress and ingress)
+
+
+A multi-vendor initiative to establish a uniform way to connect, manage, monitor and secure services :
+
+Connect: Resiliency, discovery, load balancing
+Manage: Traffic control, policy enforcement
+Monitor: Metrics, Logging, Tracing
+Secure: End-to-end Authentication and Authorization
+
+Problem Area
+
+Creating and maintaining production-grade distributed systems (microservices) is hard. 
+
+Designers of microservices applications must account for service discovery, load balancing, fault tolerance, monitoring, dynamic routing, compliance, security. And must do all of that consistently for any language and runtime.
+
+Current attempts to solve these big issues have been language or runtime specific, require application specific changes and require multiple technology solutions to be integrated together.
+
+Benefits of {Productname}
+
+Codifies common service interaction and service design patterns for building secure, resilient applications 
+Programing language and runtime agnostic - not dependent on a particular language of framework 
+Unintrusive - existing applications and services can make use of many of the Istio capabilities without change to application code.
+Focus on policy and not code
+Pre-integrated Service-mesh architecture based on mature design patterns and technologies
+
+Core Components 
+
+Data Plane :
+Envoy Proxy : a network services proxy that mediates all inbound and outbound traffic for each services in the service mesh.
+Control Plane 
+Istio-Pilot - service discovery, registration and load balancing
+Istio-Auth - strong service-to-service and end-user authentication using mutual TLS
+Istio-Mixer - responsible for enforcing access control across the service mesh & collecting telemetry data from the Envoy proxy and other services.
+
+////

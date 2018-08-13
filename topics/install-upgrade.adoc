@@ -1,0 +1,5 @@
+[[install_upgrade]]
+== Upgrading {Productname}
+
+As {Productname} is still a technology preview, there is no mechanism in place for upgrading.  When there is a new release of {Productname}, you should remove {Productname} from your cluster and install the newer release.
+
